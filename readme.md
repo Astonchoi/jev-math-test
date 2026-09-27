@@ -4,8 +4,6 @@
 
 Source: hkdse-2025-math-paper (45 questions, 4 options each) + `raw-data/answer.md` (45 answers, matches).
 
-Parsing strategy: chunk on `^\d+\.` boundaries. Everything inside a chunk before `^[A-D]\.` is the stem. Traps:
-
 ## skip questions
 
 if its figure question, skip it. 14, 21, 23, 29
