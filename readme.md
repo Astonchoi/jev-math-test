@@ -19,6 +19,6 @@ if its figure question, skip it. 14, 21, 23, 29
 
 ### figure questions that are still answerable (text self-contained)
 
-Q17, 18, 19, 22, 38 — image is illustration only, all given data is in the text. Keep them in the test.
+Q17, 18, 19, 22, 38 — image is illustration only, all given data is in the text. Kept in the test run, but excluded from scoring to be fair to a text-only model.
 
-Result: test 41 of 45 questions in a text-only run.
+See [report.md](report.md) for the results.

@@ -1,0 +1,254 @@
+[
+  {
+    "number": 1,
+    "predicted": "C",
+    "expected": "C",
+    "confidence": 0.65,
+    "correct": true
+  },
+  {
+    "number": 2,
+    "predicted": "B",
+    "expected": "B",
+    "confidence": 1.0,
+    "correct": true
+  },
+  {
+    "number": 3,
+    "predicted": "A",
+    "expected": "D",
+    "confidence": 0.19,
+    "correct": false
+  },
+  {
+    "number": 4,
+    "predicted": "B",
+    "expected": "A",
+    "confidence": 0.32,
+    "correct": false
+  },
+  {
+    "number": 5,
+    "predicted": "A",
+    "expected": "A",
+    "confidence": 0.64,
+    "correct": true
+  },
+  {
+    "number": 6,
+    "predicted": "D",
+    "expected": "D",
+    "confidence": 0.99,
+    "correct": true
+  },
+  {
+    "number": 7,
+    "predicted": "C",
+    "expected": "D",
+    "confidence": 0.59,
+    "correct": false
+  },
+  {
+    "number": 8,
+    "predicted": "C",
+    "expected": "C",
+    "confidence": 0.31,
+    "correct": true
+  },
+  {
+    "number": 9,
+    "predicted": "D",
+    "expected": "D",
+    "confidence": 0.6,
+    "correct": true
+  },
+  {
+    "number": 10,
+    "predicted": "C",
+    "expected": "C",
+    "confidence": 0.3,
+    "correct": true
+  },
+  {
+    "number": 11,
+    "predicted": "C",
+    "expected": "A",
+    "confidence": 0.3,
+    "correct": false
+  },
+  {
+    "number": 12,
+    "predicted": "D",
+    "expected": "C",
+    "confidence": 0.34,
+    "correct": false
+  },
+  {
+    "number": 13,
+    "predicted": "C",
+    "expected": "A",
+    "confidence": 0.26,
+    "correct": false
+  },
+  {
+    "number": 15,
+    "predicted": "C",
+    "expected": "D",
+    "confidence": 0.31,
+    "correct": false
+  },
+  {
+    "number": 16,
+    "predicted": "B",
+    "expected": "B",
+    "confidence": 0.26,
+    "correct": true
+  },
+  {
+    "number": 20,
+    "predicted": "C",
+    "expected": "D",
+    "confidence": 0.16,
+    "correct": false
+  },
+  {
+    "number": 24,
+    "predicted": "A",
+    "expected": "C",
+    "confidence": 0.34,
+    "correct": false
+  },
+  {
+    "number": 25,
+    "predicted": "B",
+    "expected": "B",
+    "confidence": 0.99,
+    "correct": true
+  },
+  {
+    "number": 26,
+    "predicted": "C",
+    "expected": "B",
+    "confidence": 0.15,
+    "correct": false
+  },
+  {
+    "number": 27,
+    "predicted": "A",
+    "expected": "A",
+    "confidence": 0.46,
+    "correct": true
+  },
+  {
+    "number": 28,
+    "predicted": "C",
+    "expected": "C",
+    "confidence": 0.94,
+    "correct": true
+  },
+  {
+    "number": 30,
+    "predicted": "D",
+    "expected": "B",
+    "confidence": 0.27,
+    "correct": false
+  },
+  {
+    "number": 31,
+    "predicted": "C",
+    "expected": "D",
+    "confidence": 0.33,
+    "correct": false
+  },
+  {
+    "number": 32,
+    "predicted": "D",
+    "expected": "C",
+    "confidence": 0.4,
+    "correct": false
+  },
+  {
+    "number": 33,
+    "predicted": "B",
+    "expected": "C",
+    "confidence": 0.19,
+    "correct": false
+  },
+  {
+    "number": 34,
+    "predicted": "A",
+    "expected": "D",
+    "confidence": 0.2,
+    "correct": false
+  },
+  {
+    "number": 35,
+    "predicted": "A",
+    "expected": "A",
+    "confidence": 0.35,
+    "correct": true
+  },
+  {
+    "number": 36,
+    "predicted": "D",
+    "expected": "B",
+    "confidence": 0.7,
+    "correct": false
+  },
+  {
+    "number": 37,
+    "predicted": "C",
+    "expected": "A",
+    "confidence": 0.57,
+    "correct": false
+  },
+  {
+    "number": 39,
+    "predicted": "B",
+    "expected": "B",
+    "confidence": 0.28,
+    "correct": true
+  },
+  {
+    "number": 40,
+    "predicted": "D",
+    "expected": "B",
+    "confidence": 0.36,
+    "correct": false
+  },
+  {
+    "number": 41,
+    "predicted": "C",
+    "expected": "C",
+    "confidence": 0.73,
+    "correct": true
+  },
+  {
+    "number": 42,
+    "predicted": "B",
+    "expected": "B",
+    "confidence": 0.2,
+    "correct": true
+  },
+  {
+    "number": 43,
+    "predicted": "C",
+    "expected": "C",
+    "confidence": 0.37,
+    "correct": true
+  },
+  {
+    "number": 44,
+    "predicted": "A",
+    "expected": "A",
+    "confidence": 0.38,
+    "correct": true
+  },
+  {
+    "number": 45,
+    "predicted": "C",
+    "expected": "D",
+    "confidence": 0.29,
+    "correct": false
+  }
+]
