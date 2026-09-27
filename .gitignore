@@ -1,0 +1,29 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment aliases
+venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# copyrighted files
+raw-data/hkdse-2025-math-paper.md
+
+# agent
+claude/
+claude.md
+
+# misc
+example.py
