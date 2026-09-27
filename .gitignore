@@ -20,6 +20,7 @@ venv/
 
 # copyrighted files
 raw-data/hkdse-2025-math-paper.md
+raw-data/hkdse-2025-math-paper.md.bak
 
 # agent
 claude/
@@ -27,3 +28,4 @@ claude.md
 
 # misc
 example.py
+parsed-data/questions.json
