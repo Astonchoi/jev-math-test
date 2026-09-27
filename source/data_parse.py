@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PAPER_PATH = ROOT / "raw-data" / "hkdse-2025-math-paper.md"
 ANSWER_PATH = ROOT / "raw-data" / "answer.md"
-OUTPUT_PATH = ROOT / "parsed-data" / "questions.json"
+OUTPUT_PATH = ROOT / "output" / "questions.json"
 
 QUESTION_RE = re.compile(r"^(\d+)\.\s", re.MULTILINE)
 OPTION_RE = re.compile(r"^([A-D])\.\s*(.*)$")

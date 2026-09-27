@@ -4,7 +4,7 @@ Question + options go into the system_one state, and the answer is a Choice
 question with criteria A/B/C/D mapped to the option texts. The response gives
 .choice (label), .confidence, and .probabilities.
 
-Input: parsed-data/questions.json (produced by parse_questions.py)
+Input: output/questions.json (produced by parse_questions.py)
 """
 
 import asyncio
@@ -18,7 +18,7 @@ from typesafe_sdk import AsyncTypeSafeClient, Choice, TypeSafeClient
 
 load_dotenv()  # read .env file into os.environ
 ROOT = Path(__file__).resolve().parents[1]
-QUESTIONS_PATH = ROOT / "parsed-data" / "questions.json"
+QUESTIONS_PATH = ROOT / "output" / "questions.json"
 DEFAULT_CONCURRENCY = 8
 
 
