@@ -27,20 +27,25 @@ See [report.md](report.md) for the results.
 4. **Point the parser at your files** — update `PAPER_PATH`, `ANSWER_PATH`, `OUTPUT_PATH` in `source/data_parse.py`.
 5. **Update the hard-coded config for your paper** — the skip lists in `source/main.py` (`SKIP_FIGURE_QUESTIONS`, `SKIP_IMAGE_ILLUSTRATION_QUESTIONS`, figure questions a text-only model can't answer) and the topic bands in `source/eval.py` (`TOPIC_BANDS`). Both are hard-coded for the 2025 paper.
 6. **Get a jev API key** — copy `.env.example` to `.env` and fill in `JEV_API_KEY`.
-7. **Set up the environment** — creates `.venv/` and installs the dependencies from `pyproject.toml`:
+7. **Set up the environment**:
 
    ```sh
-   uv sync
+   # no uv? install it first
+   brew install uv                                      # macOS (Homebrew)
+   curl -LsSf https://astral.sh/uv/install.sh | sh      # Linux/macOS
+
+   uv sync          # create .venv + install dependencies
+                    # (reads requires-python >= 3.11, downloads Python if needed)
    ```
 
-8. **Run** — parses the paper, asks the questions in parallel, prints per-question results and the score, and saves `output/results.json`:
+8. **Run**:
 
    ```sh
    cd source
    ../.venv/bin/python main.py
    ```
 
-9. **Evaluate** — offline scoring of `output/results.json`: overall accuracy, accuracy above a confidence threshold, and a per-topic breakdown. No API calls, safe to rerun:
+9. **Evaluate** — offline, no API calls, safe to rerun:
 
    ```sh
    cd source
